@@ -14,12 +14,22 @@ const Home = () => {
   return (
     <>
       <Header />
+      <section id="home">
       <Hero />
+      </section>
       <VesakZone />
+      <section id="mentors">
       <Mentors />
+      </section>
+      <section id="members">
       <Committee />
+      </section>
+      <section id="ourwork">
       <OurWork />
+      </section>
+      <section id="contactus">
       <Feedback />
+      </section>
       <Footer />
     </>
   );
